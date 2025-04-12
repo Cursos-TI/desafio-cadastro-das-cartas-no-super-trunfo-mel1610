@@ -8,12 +8,12 @@ float area = 1200.25;
 float PIB = 300.50;
 int pontos = 30;
 
-printf("estdado %c\n", estado);
+printf("estado %c\n", estado);
 printf("codigo: %s\n",codigo);
 printf("nome: %s\n",nome);
 printf("populacao: %d\n", populacao);
 printf("area: %e km\n", area);
-printf("PIB: %f bilhoes\n", PIB);
+printf("PIB: %.2f bilhoes\n", PIB);
 printf("pontos: %d pontos turisticos\n", pontos);
 return 0;
 
